@@ -41,7 +41,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-/*---------------*/
+/*---------------------------------------------*/
 
 body {
     line-height: 1.5;
@@ -64,20 +64,19 @@ p {
 a {
   font-size:18px;
   padding: 5px 10px;
-  border: 2px ;
   padding-top: 20px;
   color: blue;
 }
 header { 
   text-align: center;
-  background-color: rgb(199, 134, 199);
+  background-color:#c786c7;
   width: 100%;
-  height: 50px;
+  height: 40px;
   padding-top:20px;
   
 }
 footer {
-  background-color: rgb(144, 144, 231);
+  background-color:#9090e7;
   text-align: center;
 }
 
@@ -86,6 +85,8 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 section{
   width: 40%;
@@ -104,6 +105,7 @@ nav a, article a{
 hr{
     width: 40%;
 }
+
 .date{
   text-decoration: bold;
   color:blue;
@@ -112,7 +114,3 @@ hr{
   margin-bottom: 10px;
 }
 
-img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
