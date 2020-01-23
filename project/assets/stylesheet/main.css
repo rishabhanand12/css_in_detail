@@ -43,33 +43,32 @@ table {
 }
 /*---------------*/
 
-body{
-	line-height: 1.5;
+body {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    
 }
-h2, p{
- font-family: "Times New Roman";  
-  color: black;
-}
-h2{
+h2 {
   font-size: 24px;
   text-decoration: none;
   font-weight: bold;
   margin-top: 10px;
+  color:black;
 }
-p{
-    font-size: 18px;
-    margin-top:20px;
-    margin-bottom: 20px;
+p {
+  font-size: 20px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  color:black;
 }
-a{
-  font-family: Helvetica;
+a {
   font-size:18px;
   padding: 5px 10px;
   border: 2px ;
   padding-top: 20px;
   color: blue;
 }
-header{
+header { 
   text-align: center;
   background-color: rgb(199, 134, 199);
   width: 100%;
@@ -77,13 +76,9 @@ header{
   padding-top:20px;
   
 }
-footer{
-	background-color: rgb(144, 144, 231);
+footer {
+  background-color: rgb(144, 144, 231);
   text-align: center;
-}
-small{
-	text-align: center;
-	color:black;
 }
 
 img{
@@ -105,10 +100,14 @@ time{
 nav a, article a{
   text-decoration: none;
 }
+
+hr{
+    width: 40%;
+}
 .date{
   text-decoration: bold;
   color:blue;
-  font-family: sans-serif; 
+  font-family: monte; 
   margin-top: 20px;
   margin-bottom: 10px;
 }
